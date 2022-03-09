@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ListTermsFragment">
+
+    <fragment
+        android:id="@+id/ListTermsFragment"
+        android:name="com.example.InformalBusinessDictionary.ListTermsFragment"
+        android:label="fragment_list_terms"
+        tools:layout="@layout/list_terms" />
+
+    <action
+        android:id="@+id/firstDestinationToTranslateTermDialog"
+        app:destination="@+id/translateTermDialog"/>
+
+    <dialog
+        android:id="@+id/translateTermDialog"
+        android:name="com.example.InformalBusinessDictionary.TranslateTermDialogFragment"
+        android:label="translate_term_dialog"
+        tools:layout="@layout/translate_term_dialog" />
+
+</navigation>
