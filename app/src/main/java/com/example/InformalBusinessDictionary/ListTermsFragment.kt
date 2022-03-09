@@ -25,11 +25,9 @@ class ListTermsFragment : Fragment(R.layout.list_terms) {
     private fun addDataSource() {
         val dataSource = DataSource.createData()
         this.termsAdapter.setData(dataSource)
-        this.termsAdapter.setData(dataSource)
     }
 
     private fun setupAdapter() {
-        //precisa passar a variavel
         this.termsAdapter = TermsAdapter { term ->
             findNavController().navigate(R.id.firstDestinationToTranslateTermDialog)
         }

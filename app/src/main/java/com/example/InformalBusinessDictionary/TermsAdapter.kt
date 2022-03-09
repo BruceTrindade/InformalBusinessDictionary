@@ -32,8 +32,6 @@ class TermsAdapter(private val onItemClicked : (Terms) -> Unit): RecyclerView.Ad
 
     fun setData(term: List<Terms>){
         this.items = term
-        this.items = term
-        this.items = term
     }
 
     class TermsViewHolder constructor(

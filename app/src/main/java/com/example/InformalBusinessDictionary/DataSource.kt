@@ -42,16 +42,6 @@ class DataSource {
                 )
             )
 
-            list.add(
-                Terms(
-                    1447,
-                    "hard skills",
-                    "aptidões que podem ser aprendidas por meio de qualificações"
-                )
-            )
-
-
-
             return list
 
         }
