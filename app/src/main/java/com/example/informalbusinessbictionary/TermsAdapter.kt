@@ -1,10 +1,11 @@
-package com.example.InformalBusinessDictionary
+package com.example.informalbusinessbictionary
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.InformalBusinessDictionary.Models.Terms
+import com.example.InformalBusinessDictionary.R
+import com.example.informalbusinessbictionary.Models.Terms
 import kotlinx.android.synthetic.main.row_layout_term.view.*
 
 class TermsAdapter(private val onItemClicked : (Terms) -> Unit): RecyclerView.Adapter<RecyclerView.ViewHolder>() {

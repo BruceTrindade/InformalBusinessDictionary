@@ -1,10 +1,13 @@
-package com.example.InformalBusinessDictionary
+package com.example.informalbusinessbictionary
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.fragment.NavHostFragment.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.InformalBusinessDictionary.R
 import kotlinx.android.synthetic.main.list_terms.*
 
 class ListTermsFragment : Fragment(R.layout.list_terms) {

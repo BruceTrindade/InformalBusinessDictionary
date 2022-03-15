@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.InformalBusinessDictionary.ListTermsFragment"
+    tools:context="com.example.InformalBusinessDictionary.com.example.informalbusinessbictionary.ListTermsFragment"
     android:background="#fafafa"
     android:padding="10dp">
-
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/termsRecyclerView"

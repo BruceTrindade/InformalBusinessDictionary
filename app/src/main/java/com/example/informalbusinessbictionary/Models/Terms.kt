@@ -1,4 +1,4 @@
-package com.example.InformalBusinessDictionary.Models
+package com.example.informalbusinessbictionary.Models
 
 data class Terms(
     var id: Long,

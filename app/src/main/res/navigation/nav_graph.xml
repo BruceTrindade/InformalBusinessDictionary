@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/ListTermsFragment"
-        android:name="com.example.InformalBusinessDictionary.ListTermsFragment"
+        android:name="com.example.informalbusinessbictionary.ListTermsFragment"
         android:label="fragment_list_terms"
-        tools:layout="@layout/list_terms" />
+        tools:layout="@layout/list_terms"/>
 
     <action
         android:id="@+id/firstDestinationToTranslateTermDialog"
@@ -17,8 +17,15 @@
 
     <dialog
         android:id="@+id/translateTermDialog"
-        android:name="com.example.InformalBusinessDictionary.TranslateTermDialogFragment"
+        android:name="com.example.informalbusinessbictionary.TranslateTermDialogFragment"
         android:label="translate_term_dialog"
-        tools:layout="@layout/translate_term_dialog" />
+        tools:layout="@layout/translate_term_dialog">
+
+        <argument
+            android:name="number"
+            app:argType="integer"
+            android:defaultValue="2"/>
+
+    </dialog>
 
 </navigation>

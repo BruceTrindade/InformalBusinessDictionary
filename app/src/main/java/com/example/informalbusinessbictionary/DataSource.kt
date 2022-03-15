@@ -1,6 +1,6 @@
-package com.example.InformalBusinessDictionary
+package com.example.informalbusinessbictionary
 
-import com.example.InformalBusinessDictionary.Models.Terms
+import com.example.informalbusinessbictionary.Models.Terms
 
 class DataSource {
 
