@@ -21,8 +21,8 @@
         android:label="translate_term_dialog"
         tools:layout="@layout/translate_term_dialog">
         <argument
-            android:name="translate"
-            app:argType="string" />
+            android:name="term"
+            app:argType="com.example.informalbusinessbDictionary.Models.Terms" />
     </dialog>
 
 </navigation>

@@ -31,8 +31,7 @@ class ListTermsFragment : Fragment(R.layout.list_terms) {
 
     private fun setupAdapter() {
         this.termsAdapter = TermsAdapter { term ->
-            val teste = "teste"
-            val actions = ListTermsFragmentDirections.firstDestinationToTranslateTermDialog(term.translate)
+            val actions = ListTermsFragmentDirections.firstDestinationToTranslateTermDialog(term)
             findNavController().navigate(actions)
         }
         termsRecyclerView.layoutManager = LinearLayoutManager(context)
