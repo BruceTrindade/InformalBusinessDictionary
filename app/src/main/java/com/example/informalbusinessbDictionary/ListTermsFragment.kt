@@ -3,6 +3,7 @@ package com.example.informalbusinessbDictionary
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.InformalBusinessDictionary.R
@@ -30,7 +31,9 @@ class ListTermsFragment : Fragment(R.layout.list_terms) {
 
     private fun setupAdapter() {
         this.termsAdapter = TermsAdapter { term ->
-            findNavController().navigate(R.id.firstDestinationToTranslateTermDialog)
+            val teste = "teste"
+            val actions = ListTermsFragmentDirections.firstDestinationToTranslateTermDialog(term.translate)
+            findNavController().navigate(actions)
         }
         termsRecyclerView.layoutManager = LinearLayoutManager(context)
         termsRecyclerView.adapter = this.termsAdapter
