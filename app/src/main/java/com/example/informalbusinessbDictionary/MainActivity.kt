@@ -1,8 +1,7 @@
-package com.example.informalbusinessbictionary
+package com.example.informalbusinessbDictionary
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.InformalBusinessDictionary.R
 
 class MainActivity : AppCompatActivity() {

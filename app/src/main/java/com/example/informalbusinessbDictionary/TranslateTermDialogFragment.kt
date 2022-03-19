@@ -1,4 +1,4 @@
-package com.example.informalbusinessbictionary
+package com.example.informalbusinessbDictionary
 
 import android.os.Bundle
 import android.view.LayoutInflater
